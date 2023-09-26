@@ -7,6 +7,8 @@ const Footer = () => {
       <div className="footer__container">
         <div className="footer__copyright">
           <small>&copy; SeeKeR | Narmie. All rights reserved</small>
+          <br />
+          <small>Version 1</small>
         </div>
       </div>
     </footer>
