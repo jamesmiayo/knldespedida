@@ -1,13 +1,141 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;600;800&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bgcolor: #accacc;
+  --color-white: #ffffff;
+  --color-blue: #1c5e72;
+  --color-bluev2: #244651;
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bgcolor);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  color: var(--color-white);
+  line-height: 1.7;
+}
+
+/* ==================general styles===================*/
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 500;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 500;
+}
+h4 {
+  font-weight: 500;
+}
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+h5 {
+  text-align: center;
+}
+section {
+  margin-top: 2rem;
+}
+
+section > h2 {
+  text-align: center;
+}
+section > h5 {
+  text-align: center;
+}
+
+.text-light {
+  color: var(--color-white);
+}
+
+a {
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-oasis);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-oasis);
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: var(--color-orange-variant);
+  color: var(--color-black-variant);
+}
+
+.btn-secondary {
+  color: var(--color-orange-variant);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ==================MEDIA QUERIES (medium devices) ===========================*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 1rem;
+  }
+}
+/* ==================MEDIA QUERIES (small devices) ===========================*/
+
+@media screen and (max-height: 600px) {
+}
+@media screen and (max-height: 600px) {
+}
+@media screen and (max-height: 200px) {
 }

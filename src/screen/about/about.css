@@ -1,0 +1,52 @@
+.container {
+}
+
+.about__container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about__container h1 {
+  color: var(--color-blue);
+  font-family: 'Kaushan Script', cursive;
+  padding: 0;
+  text-align: right;
+}
+
+.title {
+  margin-right: 10%;
+  text-align: right;
+}
+
+.title h2 {
+  text-transform: capitalize;
+}
+
+.title h3 {
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  text-decoration-thickness: 2px;
+}
+
+/* ==================MEDIA QUERIES (small devices) ===========================*/
+
+@media screen and (max-width: 600px) {
+  .about__container {
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ==================MEDIA QUERIES (medium devices) ===========================*/
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    top: 40%;
+    left: 60%;
+  }
+}
