@@ -36,9 +36,13 @@
 
 @media screen and (max-width: 600px) {
   .about__container {
-    top: 50%;
+    top: 60%;
     left: 10%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -10%);
+  }
+
+  .title h1 {
+    font-size: 2rem;
   }
 }
 
