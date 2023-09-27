@@ -87,7 +87,9 @@ const Nav = () => {
                 survived not only five centuries, but also the leap into
               </h5>
               <h3>-Seeker</h3>
-              <img src={barcode} alt="barcode" className="barcode"></img>
+              <div>
+                <img src={barcode} alt="barcode" className="barcode"></img>
+              </div>
             </div>
             <div className="card__info">
               <div className="img"></div>
