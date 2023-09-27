@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './nav.css';
+import { FaPlane } from 'react-icons/fa';
+import barcode from '../../img/barcode.png';
 
 const Nav = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -65,7 +67,93 @@ const Nav = () => {
       </div>
 
       <div className={toggleState === 3 ? 'active-content' : 'content'}>
-        <div className="message">Message</div>
+        <div className="card__message">
+          <div className="card__title">
+            <h1>
+              Boarding Pass{' '}
+              <span>
+                <FaPlane className="icon-plane" size={30} />
+              </span>
+            </h1>
+          </div>
+          <div className="card__detail">
+            <div className="card__details">
+              <h3>To: Kevin & Nikki </h3>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+              </h5>
+              <h3>-Seeker</h3>
+              <img src={barcode} alt="barcode" className="barcode"></img>
+            </div>
+            <div className="card__info">
+              <div className="img"></div>
+              <h3>First Class</h3>
+              <h3>AUS 308</h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="card__message">
+          <div className="card__title">
+            <h1>
+              Boarding Pass{' '}
+              <span>
+                <FaPlane className="icon-plane" size={30} />
+              </span>
+            </h1>
+          </div>
+          <div className="card__detail">
+            <div className="card__details">
+              <h3>To: Kevin & Nikki </h3>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+              </h5>
+              <h3>-Seeker</h3>
+              <img src={barcode} alt="barcode" className="barcode"></img>
+            </div>
+            <div className="card__info">
+              <div className="img"></div>
+              <h3>First Class</h3>
+              <h3>AUS 308</h3>
+            </div>
+          </div>
+        </div>
+
+        <div className="card__message">
+          <div className="card__title">
+            <h1>
+              Boarding Pass{' '}
+              <span>
+                <FaPlane className="icon-plane" size={30} />
+              </span>
+            </h1>
+          </div>
+          <div className="card__detail">
+            <div className="card__details">
+              <h3>To: Kevin & Nikki </h3>
+              <h5>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+              </h5>
+              <h3>-Seeker</h3>
+              <img src={barcode} alt="barcode" className="barcode"></img>
+            </div>
+            <div className="card__info">
+              <div className="img"></div>
+              <h3>First Class</h3>
+              <h3>AUS 308</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
