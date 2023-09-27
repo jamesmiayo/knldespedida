@@ -65,7 +65,7 @@ const Nav = () => {
       </div>
 
       <div className={toggleState === 3 ? 'active-content' : 'content'}>
-        <div className="container">Message</div>
+        <div className="message">Message</div>
       </div>
     </div>
   );
