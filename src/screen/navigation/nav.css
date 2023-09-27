@@ -1,10 +1,12 @@
+.container {
+  margin: 5%;
+}
+
 .bloc-tabs {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  margin: 5%;
 }
 .nav {
   background-color: rgba(81, 108, 129, 0.9);
@@ -44,6 +46,7 @@
   display: none;
 }
 
+/******************** about section *******************/
 .about__container {
   position: absolute;
   top: 60%;
@@ -95,6 +98,20 @@
   .title h4 {
     font-size: 0.8rem;
   }
+}
+
+.nav {
+  margin: 0%;
+  border-radius: 0.5rem;
+}
+.container {
+  margin: 5%;
+}
+
+.tabs {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: auto;
 }
 
 /* ==================MEDIA QUERIES (medium devices) ===========================*/
