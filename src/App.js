@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import About from './screen/about/About';
 import Footer from './screen/footer/Footer';
+import Nav from './screen/navigation/Nav';
 
 const App = () => {
   return (
     <>
-      <About />
+      <Nav />
       <Footer />
     </>
   );
