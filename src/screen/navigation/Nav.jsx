@@ -59,7 +59,7 @@ const Nav = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title="map2"
-            frameborder="0"
+            frameBorder="0"
           ></iframe>
         </div>
       </div>
