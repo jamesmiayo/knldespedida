@@ -3,6 +3,10 @@ import './nav.css';
 import { FaPlane } from 'react-icons/fa';
 import barcode from '../../img/barcode.png';
 
+import img_mau from '../../img/mau.jpg';
+import img_mavic from '../../img/mavic.jpg';
+import img_seeker from '../../img/seeker.jpg';
+
 const Nav = () => {
   const [toggleState, setToggleState] = useState(1);
 
@@ -80,19 +84,21 @@ const Nav = () => {
             <div className="card__details">
               <h3>To: Kevin & Nikki </h3>
               <h5>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
+                Hi ate niks&kuya kevin this photo taken 1yr ago sept 21,2022 ♥️
+                bday treat nyo sakin sa tagaytay thankyou sainyo 💗 ksi kht
+                sobrng busy nyo lagi kayong naglalaan ng time pra
+                makasama/makabonding nyo kmi. Thankyou po for everything!!
+                🥹♥️♥️♥️ Goodluck on your new adventure&& Wishing you all the
+                success in your new life ✨
               </h5>
-              <h3>-Seeker</h3>
+              <h3>-Mau</h3>
               <div>
                 <img src={barcode} alt="barcode" className="barcode"></img>
               </div>
             </div>
             <div className="card__info">
-              <div className="img"></div>
+              <img src={img_mau} alt="barcode" className="img"></img>
+
               <h3>First Class</h3>
               <h3>AUS 308</h3>
             </div>
@@ -110,17 +116,27 @@ const Nav = () => {
           </div>
           <div className="card__detail">
             <div className="card__details">
-              <h3>To: Kevin & Nikki </h3>
+              <h3>To: Nikki </h3>
               <h5>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
+                Surprise!!! Ang payat natin dito sa pic na ito, ehhe... Isa ito
+                sa mga unang pics natin dalawa, and I am grateful na nakilala
+                kita at nakasama kita sa journey ko bilang SFC. You know that I
+                look up to you bilang isang kristyano at syempre bilang isang
+                leader sa community. Minsan nga namimiss kita sa mga ganaps at
+                sa mga household kasi wala naman din ako makausap o
+                mapagkakatiwalaan kung minsan hehehe... Anyways ate, I am happy
+                kasi finally natupad na din yung isa sa mga life goals mo na
+                makapag abroad, pero this time for good na kayo ni Kuya Kevin sa
+                Canada, I wish happiness and a lot of opportunity san man kayo
+                mapadpad. Don't worry ate, ipagpepray namin kayo sa bagong
+                journey na tatahakin ninyo. Yun lang... God Bless You and your
+                Future Family, Von Voyage 😊
               </h5>
-              <h3>-Seeker</h3>
+              <h3>-Mavic</h3>
               <img src={barcode} alt="barcode" className="barcode"></img>
             </div>
             <div className="card__info">
-              <div className="img"></div>
+              <img src={img_mavic} alt="barcode" className="img"></img>
               <h3>First Class</h3>
               <h3>AUS 308</h3>
             </div>
@@ -138,19 +154,22 @@ const Nav = () => {
           </div>
           <div className="card__detail">
             <div className="card__details">
-              <h3>To: Kevin & Nikki </h3>
+              <h3>To: Kevin </h3>
               <h5>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
+                Lods, ikaw nag patunay na hindi porket may tattoo masamang tao.
+                Thank you love este lods sa mga bagay na na experience ko kasama
+                ka, one thing na di ko makakalimutan yung oldnapped nyo ko
+                papuntang tagaytay ng naka sando, hindi ko makakalimutan yung
+                part na alam mong need ni papa ng buko para mag clense and
+                binilhan mo sya. Extended sa family ko yung mga tulong na
+                nabibigay mo saken. Praying sa success and safe travel/work nyo
+                abroad. mamimiss ko mga gala naten. labyu bro.
               </h5>
               <h3>-Seeker</h3>
               <img src={barcode} alt="barcode" className="barcode"></img>
             </div>
             <div className="card__info">
-              <div className="img"></div>
+              <img src={img_seeker} alt="barcode" className="img"></img>
               <h3>First Class</h3>
               <h3>AUS 308</h3>
             </div>
