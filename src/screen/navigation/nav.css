@@ -29,7 +29,7 @@
 }
 .active-content {
   display: block;
-  margin: 0.1rem 0 0.1rem;
+  margin: 1rem 0.1rem;
   margin-bottom: 10rem;
 }
 
@@ -79,6 +79,7 @@
 .card__message {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 .card__title {
   background: #d1bc91;

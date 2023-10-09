@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './nav.css';
 import { FaPlane } from 'react-icons/fa';
+import { FaWindowClose } from 'react-icons/fa';
 import barcode from '../../img/barcode.png';
 
 import img_mau from '../../img/mau.jpg';
 import img_mavic from '../../img/mavic.jpg';
 import img_seeker from '../../img/seeker.jpg';
-import { FaWindowClose } from 'react-icons/fa';
+import img_miel from '../../img/miel.jpg';
 
 const Nav = () => {
   let data = [
@@ -33,6 +34,14 @@ const Nav = () => {
       message:
         'Lods, ikaw nag patunay na hindi porket may tattoo masamang tao. Thank you love este lods sa mga bagay na na experience ko kasama ka, one thing na di ko makakalimutan yung oldnapped nyo ko papuntang tagaytay ng naka sando, hindi ko makakalimutan yung part na alam mong need ni papa ng buko para mag clense and binilhan mo sya. Extended sa family ko yung mga tulong na nabibigay mo saken. Praying sa success and safe travel/work nyo abroad. mamimiss ko mga gala naten. labyu bro.',
       from: '-Seeker',
+    },
+    {
+      id: 4,
+      imgSrc: img_miel,
+      to: 'Nikki',
+      message:
+        'Hi Nikki, We thank God for giving us a sister like you. Salamat sa gift of service thru SFC na makasama ka namin. You treat us Tres Marias (Vite Sisters) like your own siblings (parehas kayo ni Normae) and thankful kami dun kasi sobrang smooth saling kahit may ups and downs din yung chapter natin parang with you nagiging continuos ang flow natin to serve. You also grow being a wonderful woman as you are right now. Take care always.',
+      from: '-Miel',
     },
 
     // {
