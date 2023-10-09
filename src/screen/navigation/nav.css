@@ -29,16 +29,17 @@
 }
 .active-content {
   display: block;
-  margin: 3rem 0 5rem;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0rem;
 }
 
 .content-tabs {
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 .content {
   background: white;
-  padding: 20px;
+  padding: 1rem;
   width: 100%;
   height: 100%;
   display: none;
@@ -76,7 +77,9 @@
 
 /************** boarding pass ************************/
 .card__message {
-  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .card__title {
   background: #d1bc91;
@@ -185,11 +188,12 @@
     height: 30px;
     width: 100px;
     margin-bottom: 0.5rem;
+    padding-left: 1rem;
   }
 
   .img {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
   }
 }
 
