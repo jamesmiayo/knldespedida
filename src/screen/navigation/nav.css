@@ -75,6 +75,11 @@
   letter-spacing: 2px;
 }
 
+/************ map ***********/
+.map2 {
+  margin-top: 5rem;
+}
+
 /************** boarding pass ************************/
 .card__message {
   display: flex;

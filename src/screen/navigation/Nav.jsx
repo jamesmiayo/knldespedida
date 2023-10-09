@@ -8,6 +8,7 @@ import img_mau from '../../img/mau.jpg';
 import img_mavic from '../../img/mavic.jpg';
 import img_seeker from '../../img/seeker.jpg';
 import img_miel from '../../img/miel.jpg';
+import img_michanne from '../../img/michanne.jpg';
 
 const Nav = () => {
   let data = [
@@ -38,10 +39,17 @@ const Nav = () => {
     {
       id: 4,
       imgSrc: img_miel,
+      to: '',
+      message: '',
+      from: '-Miel',
+    },
+    {
+      id: 5,
+      imgSrc: img_michanne,
       to: 'Nikki',
       message:
         'Hi Nikki, We thank God for giving us a sister like you. Salamat sa gift of service thru SFC na makasama ka namin. You treat us Tres Marias (Vite Sisters) like your own siblings (parehas kayo ni Normae) and thankful kami dun kasi sobrang smooth saling kahit may ups and downs din yung chapter natin parang with you nagiging continuos ang flow natin to serve. You also grow being a wonderful woman as you are right now. Take care always.',
-      from: '-Miel',
+      from: '-Michanne',
     },
 
     // {
@@ -115,6 +123,20 @@ const Nav = () => {
           <div className="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482.5653744636661!2d121.0978207903299!3d14.626227869289101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8373c9418d1%3A0x6287306b864307eb!2s98%20E%20dela%20Paz%20St%2C%20Marikina%2C%201800%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1695806142550!5m2!1sen!2sph"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="map2"
+              frameBorder="0"
+            ></iframe>
+          </div>
+
+          <div className="map2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d341.2253862183919!2d121.09779210213009!3d14.626139354716202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9c1fd1b39c5%3A0xba0fea3f975bc2b!2sMonalisa%20Kitchen%20Parking!5e0!3m2!1sen!2sph!4v1696856120011!5m2!1sen!2sph"
               width="100%"
               height="450"
               style={{ border: 0 }}
