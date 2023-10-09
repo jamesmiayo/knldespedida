@@ -79,6 +79,14 @@
 .map2 {
   margin-top: 5rem;
 }
+.map h2 {
+  background: var(--color-blue);
+  text-align: center;
+}
+.map2 h2 {
+  text-align: center;
+  background: var(--color-blue);
+}
 
 /************** boarding pass ************************/
 .card__message {
