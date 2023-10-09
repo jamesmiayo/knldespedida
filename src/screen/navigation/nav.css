@@ -141,6 +141,9 @@
   .about__container {
     transform: translate(-50%, -40%);
   }
+  .card__details {
+    padding: 1rem;
+  }
 
   .title h1 {
     font-size: 2rem;
