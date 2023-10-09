@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 
-  margin: 1%;
+  /* margin: 1%; */
 }
 .nav {
   background-color: rgba(81, 108, 129, 0.9);
@@ -151,6 +151,7 @@
 
   .title h3 {
     font-size: 1rem;
+    padding-left: 1rem;
   }
   .title h4 {
     font-size: 0.8rem;
@@ -182,6 +183,7 @@
     margin-left: 1rem;
     font-weight: 100;
     font-size: xx-small;
+    padding-left: 0.5rem;
   }
 
   .barcode {
