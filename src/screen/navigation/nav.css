@@ -124,6 +124,7 @@
   margin: 0.5rem;
   color: black;
   padding: 0.5rem;
+  text-align: start;
 }
 
 .img {
@@ -143,6 +144,9 @@
 
 .card__info {
   border-left: 3px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card__info h3 {
@@ -240,6 +244,13 @@
     width: auto;
   }
 
+  .card__info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
   .card__message {
     padding: 0.1rem;
     width: auto;
@@ -271,8 +282,8 @@
   }
 
   .img {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   }
 }
 
