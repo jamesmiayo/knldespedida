@@ -9,6 +9,7 @@ import img_mavic from '../../img/mavic.jpg';
 import img_seeker from '../../img/seeker.jpg';
 import img_miel from '../../img/miel.jpg';
 import img_michanne from '../../img/michanne.jpg';
+import img_aimee from '../../img/aimee.jpg';
 
 const Nav = () => {
   let data = [
@@ -50,6 +51,14 @@ const Nav = () => {
       message:
         'Hi Nikki, We thank God for giving us a sister like you. Salamat sa gift of service thru SFC na makasama ka namin. You treat us Tres Marias (Vite Sisters) like your own siblings (parehas kayo ni Normae) and thankful kami dun kasi sobrang smooth saling kahit may ups and downs din yung chapter natin parang with you nagiging continuos ang flow natin to serve. You also grow being a wonderful woman as you are right now. Take care always.',
       from: '-Michanne',
+    },
+    {
+      id: 6,
+      imgSrc: img_aimee,
+      to: 'Ate Nikki',
+      message:
+        'Happy trip Niks and Kevin. God bless sa new journey nyong dalawa. See you kapag namasyal ako sa Australia. 😁 ❤️',
+      from: '-Aimee',
     },
 
     // {
