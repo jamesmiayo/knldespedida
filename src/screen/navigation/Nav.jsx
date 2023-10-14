@@ -10,6 +10,8 @@ import img_seeker from '../../img/seeker.jpg';
 import img_miel from '../../img/miel.jpg';
 import img_michanne from '../../img/michanne.jpg';
 import img_aimee from '../../img/aimee.jpg';
+import img_jackie from '../../img/jackie.jpg';
+import img_meds from '../../img/meds.png';
 
 const Nav = () => {
   let data = [
@@ -60,7 +62,22 @@ const Nav = () => {
         'Happy trip Niks and Kevin. God bless sa new journey nyong dalawa. See you kapag namasyal ako sa Australia. 😁 ❤️',
       from: '-Aimee',
     },
-
+    {
+      id: 7,
+      imgSrc: img_jackie,
+      to: 'Nikki',
+      message:
+        'Hi Nikkiiiiiii ❤️❤️❤️ itooooo na, legit na legit naaa ang katuparan ng inyong mga pangrap. 😊 Im super happy for you Nikki. And you deserve this lalo pa you really work hard to chase your dreams ❤️ Thank you so much Nikki sa lahat ng help, personal and work. Thank you dahil anytime pwede kita chikahin sa kahit anong bagay lalo pa pag inaantok ako sa work 🤣 thank you sa pagshare ng life experiences and thank you sa pagiging leader and boses sa team ❤️ I really really appreciate you 😘 New beginnings and challenges sa Au but I know kayang kaya niyo yan ni Kevin 💪 kayo pa baaaaa? Good luck and God bless sa panibagong journey niyo. I wish nothing but the best for you and Kevin 🙏 Im always one chat away👌 i love youuuuu Nikkiiii 😘😘😘 mamimiss ka ng team physically but I know you are always there for us ❤️',
+      from: '-Jackie',
+    },
+    {
+      id: 8,
+      imgSrc: img_meds,
+      to: 'Nikki',
+      message:
+        'Despite sa mga nangyari nung mga panahon na yan (1st - hindi talaga inexpect ni A na kukunin ko syang speaker para sa talk about sa family and 2nd - nasiraan sya nyan ng boots at galing pa sa sakit), parehas pa rin na naramdaman ko yung genuine love at care ng isang friend at sister sa akin. 🫶 Kung may pictures nga lang din nung mga panahong kausap ko sya every time na may pinagdadaanan ako sa mga bagay-bagay, isasama ko dito para marecount at ipaalam kung gaano kabuting bestfriend at sister sya sa akin. Through good and bad times, laging andyan at handang makinig; and Ill always be grateful sa friendship namin. And I feel more blessed, knowing na magpapatuloy yun in this lifetime. 😊To A: ngayon na meron ka ulit bagong chapter na ia-unfold at journey na tatahakin, I just want you to know na I always believe in your abilities and your desire to pursue success and a better life. Ikaw yung isa sa mga hinahangaan ko kasi you always give your best in what you do at lagi mong pine-pursue yung progress at improvement. Sana kahit na nakatira ka na malayo dito sa Pinas, maalala mo lagi na you have people here who will be cheering for you in good and bad times. Alam kong strong ka most of the time, and though I am at ease na kasama mo si Kevin, sana maassure ka din na at times na you feel na need mo ng tao na you can depend on, you still have me, us. Like sa 1st pic na super proud ako to have you and for sure alam mong chinicheer kita sa sides habang nagto-talk ka, and sa 2nd pic na pinahiram ko yung extra shoes ko sayo, please know na Ill still cross oceans and do anything in my capacity to cheer and support you, and be of help to my beloved friend, nasaan ka man. 🤍 Enjoy and have a safe trip. Ill be praying for you always. I love you always, A! 🤍 Both pics - trip to Nueva Ecija and Lake Farm De La Marre Appreciation para butihing asawa ng aming friend na willing kami ipagdrive at sumama sa mga trips ng amigas kahit wala syang ibang kabonding din kundi kami. 😆 Super thankful ako for you kasi for sure in safe hands talaga sayo si Kin. Antabayanan mo na lang yung magiging mga plus one namin na makakabonding mo, kahit matagal pa ata. 🤣 Salamat sa friendship, at sa pagdadrive nang marahan lalo na nung long drive pa-Nueva Ecija at napahimbing talaga ako ng tulog sa byahe hehe! Kelan na inuman? Charzzzz. Ingat kayo lagi at enjoy AU while going hand in hand. God bless! 😊',
+      from: '-Meds',
+    },
     // {
     //   id: 3,
     //   imgSrc: img_mavic,
